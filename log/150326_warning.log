@@ -1,0 +1,66 @@
+[03-26 14:42:54] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:42:54] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:45:56] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:45:56] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:52:47] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:52:47] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:52:47] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:52:47] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:54:14] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:54:14] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:54:34] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 14:54:34] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 15:00:02] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 15:00:02] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 15:17:31] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 15:17:31] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 15:28:46] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 15:28:46] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 15:30:19] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 15:30:19] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 15:34:20] GET /resource/js/search.js 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/resource.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-26 15:34:20] GET /resource/js/search.js 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/resource.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+

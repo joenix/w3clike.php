@@ -1,0 +1,17 @@
+[
+	// jQuery Core
+	'/plugin/jquery/jquery.min.js',
+
+	// Plugin - Swiper
+	'/plugin/swiper/css/swiper.min.css',
+	'/plugin/swiper/js/swiper.jquery.min.js',
+
+	// Plugin - Ejs
+	'/plugin/dot/dot.min.js',
+	
+	// Extend
+	'/plugin/jquery/jquery.extend.min.js',
+
+	// Global Business
+	'/js/global.js'
+]

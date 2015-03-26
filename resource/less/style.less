@@ -1,0 +1,514 @@
+/* General */
+
+
+
+/* Container */
+.container
+{
+	.center;
+
+	width: 80%;
+	max-width: 960px;
+}
+
+
+/* Nav */
+nav
+{
+	.left;
+
+	a
+	{
+		.v-top;
+		.in-block;
+		.animate( background-color );
+
+		color: @gray;
+
+		&:not(.logo)
+		{
+			.relative;
+
+			padding: 1rem 1rem 1rem 3rem;
+
+			i.glyphicon
+			{
+				.animate( top );
+			}
+
+			&:hover
+			{
+				color: @whitesmoke;
+				background-color: @dark-2;
+				box-shadow: inset 0 1px 3px rgba(0, 0, 0, .5);
+
+				i.glyphicon
+				{
+					top: .95rem;
+				}
+			}
+		}
+
+		&.logo
+		{
+			padding: .5rem;
+
+			img
+			{
+				height: 2rem;
+
+				max-width: none;
+			}
+		}
+	}
+
+	i.glyphicon
+	{
+		.animate;
+		.absolute;
+
+		top: -100%; left: 1rem;
+		font-size: 1.5rem;
+	}
+
+	span
+	{
+		font-size: 1.25rem;
+	}
+}
+
+
+/* Header */
+header
+{
+	.fixed;
+	.clearfix;
+	.over-hide;
+
+	height: 3.25rem;
+	top: 0; left: 0; right: 0;
+	border-bottom: 1px solid @dark-2;
+	background: @dark-3;
+
+	.personal
+	{
+		.right;
+
+		hr
+		{
+			.inline;
+
+			border-width: 0 1px;
+			border-style: solid;
+			border-color: transparent @hr-sub transparent @hr-sup;
+		}
+
+		a
+		{
+			.animate;
+
+			line-height: 3.25rem;
+			padding: 0 1rem;
+			color: @gray;
+
+			&:hover
+			{
+				color: @white;
+			}
+		}
+
+		i.glyphicon
+		{
+			top: -1px;
+		}
+
+	}
+}
+
+
+/* Footer */
+footer
+{
+	.over-hide;
+
+	height: 3rem;
+	line-height: 3rem;
+	border-top: 1px solid @gainsboro;
+	background-color: @whitesmoke;
+
+	nav
+	{
+		a:not(.logo)
+		{
+			width: auto;
+			padding: 0 1rem;
+		}
+	}
+
+	.container
+	{
+		.clearfix;
+
+		div
+		{
+			.right;
+
+			padding: 0 1rem;
+		}
+	}
+}
+
+
+/* Section */
+section
+{
+	
+	margin-top: 3.25rem;
+
+	.container
+	{
+		padding-top: 5rem;
+
+		&>div
+		{
+			margin-bottom: 4rem;
+		}
+	}
+
+	.jumbotron
+	{
+		.flower;
+		.text-center;
+
+		padding: 11rem 0 10rem;
+		background-color: #2c709a;
+		
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.125) inset, 0 -2px 4px rgba(0, 0, 0, 0.125) inset;
+
+		h1
+		{
+			strong, small
+			{
+				line-height: 8rem;
+			}
+
+			strong
+			{
+				.block;
+
+				font-size: 6rem;
+				font-family: Times New Roman, Georgia, serif;
+				color: @white;
+				text-shadow: 0 1px 3px rgba( 0, 0, 0, 0.375 ), 0 0 10px rgba( 0, 0, 0, .075 );
+			}
+
+			small
+			{
+				color: @whitesmoke;
+				font-size: 3.5rem;
+				text-shadow: 0 1px 3px rgba( 0, 0, 0, 0.375 ), 0 0 10px rgba( 0, 0, 0, .075 );
+			}
+		}
+	}
+
+	.social
+	{
+		.text-center;
+
+		border-bottom: 1px solid @gainsboro;
+		background: @whitesmoke;
+
+		ul, li, strong
+		{
+			.v-middle;
+		}
+
+		ul
+		{
+			.list-inline;
+
+			li
+			{
+				padding: .75rem 1rem .75rem;
+
+				strong
+				{
+					padding: 0 .5rem;
+					color: @deepskyblue;
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+
+	.apply
+	{
+		.clearfix;
+
+		padding: 2rem 0;
+
+		div
+		{
+			width: 46%;
+			padding: .125rem;
+			border-radius: .25rem;
+
+			&:first-child
+			{
+				.left;
+
+				border: 1px solid @tomato;
+
+				button
+				{
+					.button-curtain( @tomato );
+					background-color: @tomato;
+				}
+			}
+			&:last-child
+			{
+				.right;
+
+				border: 1px solid @darkturquoise;
+				
+				button
+				{
+					.button-curtain( @darkturquoise );
+					background-color: @darkturquoise;
+				}
+			}
+		}
+
+		button
+		{
+			width: 100%;
+			padding: 4rem 0;
+			font-size: 2rem;
+			color: @white;
+			border-radius: .125rem;
+
+			span
+			{
+				.relative;
+
+				z-index: 1;
+			}
+
+			&:active
+			{
+				box-shadow: 0 3px 5px rgba(0, 0, 0, .25) inset;
+			}
+
+			strong
+			{
+				&:before, &:after
+				{
+					padding: 0 .25rem;
+				}
+
+				&:before
+				{
+					content: '“';
+				}
+				&:after
+				{
+					content: '”';
+				}
+			}
+		}
+	}
+
+	.qa
+	{
+
+		li
+		{
+			margin-bottom: 2rem;
+		}
+
+		p, i
+		{
+			.v-middle;
+
+			line-height: 2.5rem;
+		}
+		p
+		{
+			.clearfix;
+
+			padding: .5rem 0;
+			font-size: 1.5rem;
+		}
+		i
+		{
+			.left;
+
+			top: -1px;
+			font-size: 2rem;
+
+			&.glyphicon-question-sign
+			{
+				color: @deepskyblue;
+			}
+			&.glyphicon-info-sign
+			{
+				color: @darkorange;
+			}
+		}
+
+		span, strong
+		{
+			.block;
+
+			margin-left: 3rem;
+		}
+		span
+		{
+			color: @lightslategray;
+		}
+		strong
+		{
+			color: @deepskyblue;
+		}
+		b
+		{
+			&:before, &:after
+			{
+				padding: .125rem;
+			}
+			&:before
+			{
+				content: '“';
+			}
+			&:after
+			{
+				content: '”';
+			}
+		}
+	}
+
+	.recommend
+	{
+		label
+		{
+			.block;
+
+			padding: 1rem 0;
+			font-size: 2rem;
+		}
+
+		dl
+		{
+			.in-block;
+			.v-top;
+		
+			width: 49%;
+			padding-top: 1rem;
+
+			a
+			{
+				.in-block;
+			}
+
+			.hover( @color: @dimgray )
+			{
+				dt
+				{
+					h1
+					{
+						&:before
+						{
+							background: @color;
+						}
+					}
+				}
+				dd
+				{
+					a
+					{
+						&:hover
+						{
+							color: @white;
+							background: @color;
+							box-shadow: 0 1px 3px rgba(0, 0, 0, .125) inset;
+						}
+					}
+				}
+			}
+
+			dt
+			{
+				h1{
+					&:before
+					{
+						.in-block;
+						.v-text;
+
+						content: '　';
+						width: .5rem;
+						line-height: .875;
+						margin: 0 .8rem 0 -1.35rem;
+						background: dimgray;
+						border-radius: .125rem;
+					}
+				}
+				a
+				{
+					padding: .5rem 0;
+				}
+			}
+
+			dd
+			{
+				padding: 1rem 0;
+
+				ul
+				{
+					margin-left: -1rem;
+				}
+
+				li
+				{
+					.in-block;
+				}
+
+				a
+				{
+					.animate;
+
+					padding: .5rem 1rem;
+					color: @gray;
+					border-radius: .25rem;
+				}
+			}
+
+			&.deep
+			{
+				.hover(#09c);
+			}
+
+			&.sky
+			{
+				.hover(#0cf);
+			}
+
+			&.green
+			{
+				.hover(#0c6);
+			}
+
+			&.orange
+			{
+				.hover(#f90);
+			}
+
+			&.red
+			{
+				.hover(#f00);
+			}
+		}
+	}
+
+	// All Code By Joenix
+}
+

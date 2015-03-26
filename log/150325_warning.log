@@ -1,0 +1,18 @@
+[03-25 23:59:03] GET /login.html 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/login.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-25 23:59:03] GET /login.html 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/login.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-25 23:59:14] GET /about.html 
+Warning : #2 include(./module/about.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/index.php Line:42
+
+[03-25 23:59:14] GET /about.html 
+Warning : #2 include(): Failed opening './module/about.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/index.php Line:42
+
+[03-25 23:59:14] GET /about.html 
+Warning : #2 include(/Users/joenix/git/alidata/w3clike/template/about.tpl.php): failed to open stream: No such file or directory File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
+[03-25 23:59:14] GET /about.html 
+Warning : #2 include(): Failed opening '/Users/joenix/git/alidata/w3clike/template/about.tpl.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.2/lib/php') File:/Users/joenix/git/alidata/w3clike/class/pt/template.class.php Line:106
+
